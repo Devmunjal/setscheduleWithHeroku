@@ -52,6 +52,10 @@ class Finalform extends Component {
     }
     handleSubmit=(e)=> {
         e.preventDefault();
+        if(this.state.count<5){
+            alert('Add more row')
+        }
+        else{
         const obj = JSON.stringify(this.state);
         const query = JSON.stringify({
             query: `mutation {
@@ -97,6 +101,7 @@ class Finalform extends Component {
             body: query,
           });
           setInterval(()=>{ this.props.handle() }, 1000);
+        }
       }
     addmoreRow=(e,index)=>{
        if(this.state.count<5){
@@ -112,6 +117,7 @@ class Finalform extends Component {
     removeRow=(e,index)=> {
         this.state.taskPerformed.splice(index,1);
         this.setState({
+            count:this.state.count-1,
             taskPerformed:this.state.taskPerformed
         })
         

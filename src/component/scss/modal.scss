@@ -1,0 +1,66 @@
+.overlay1{
+    width:100%;
+    height:100%;
+    position:fixed;
+    cursor:pointer;
+    top:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.7);
+    z-index:1;
+    .contain1{
+        width:80%;
+        height:80%;
+        display:block;
+        align-items:center;
+        margin-left:auto;
+        margin-right:auto;
+        z-index:2;
+        text-align: center;
+        background-color:lightgrey;
+        font-family:cursive;
+        margin-top:5%;
+        overflow-y:auto;
+        padding-bottom:2%;
+        border-radius:25px;
+        overflow-x:hidden;
+    .mainDiv{
+        .headingDiv{
+            margin:2%;
+            text-align:center;
+            align-items:center;
+            .heading{
+                display:block;
+                margin-right:auto;
+                margin-left:auto;
+            }
+        }
+        hr{
+            border:0.5px solid;
+        }
+        .date{
+            margin-left:13.5%;
+            h5{
+                display:inline-block;
+            }
+            p{
+                display:inline-block;
+                margin-left:4%;
+            }
+        }
+        .timing{
+            text-align:center;
+            .start,.end{
+                width:50%;
+                h6{
+                    display:inline-block;
+                }
+                p{
+                    display:inline-block;
+                    margin-left:4%;
+                }
+            }
+        }
+        
+    }
+    }
+}

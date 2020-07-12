@@ -1,0 +1,29 @@
+.finalform{
+    padding:1%;
+    margin-top:1%;
+    width:80%;
+    z-index:1;
+    overflow-x:hidden;
+    overflow-y:auto;
+    .row1{
+        width:100%;
+        align-items:center;
+        margin-top:1%;
+        margin-bottom:1%;
+        .title{
+            width:30%;
+            align-items:center;
+            text-align:center;
+        }
+        .input{
+            input{
+                width:100%;
+                border-radius:10px;
+                outline-style:none;
+                border:1px solid;
+                padding-left:8px;
+            }
+        }
+    }
+
+}

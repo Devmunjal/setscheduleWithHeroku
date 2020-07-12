@@ -1,0 +1,23 @@
+.sidebar{
+    width:20%;
+    height:100%;
+    position:fixed;
+    background-color:#f4976c;
+    box-shadow:2px 0px 8px grey;
+    border-radius:0px 15px 15px 0px;
+    top:0;
+    left:0;
+    text-align:center;
+    .tabdiv{
+        margin-top:60%;
+        .tabs{
+            color:#edf5e1;
+            font-size:25px;
+            font-family:cursive;
+            cursor:pointer;
+            &:hover{
+                color:#303c6c
+            }
+        }
+    }
+}

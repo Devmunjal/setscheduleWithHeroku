@@ -1,0 +1,34 @@
+.overlay{
+    width:100%;
+    height:100%;
+    position:fixed;
+    cursor:pointer;
+    top:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.7);
+    z-index:1;
+    .contain{
+        width:90%;
+        background-color:lightgray;
+        height:80%;
+        display:block;
+        align-items:center;
+        margin-left:auto;
+        margin-right:auto;
+        z-index:2;
+        margin-top:5%;
+        overflow-y:auto;
+        padding-top:1%;
+        padding-bottom:2%;
+        border-radius:25px;
+        overflow-x:hidden;
+        .cross{
+            float:right;
+            margin-top:1%;
+            margin-left:80%;
+            position:fixed;
+            z-index:1;
+            font-weight:'bold';
+        }
+    }
+}
